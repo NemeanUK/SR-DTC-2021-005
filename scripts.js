@@ -1,0 +1,8 @@
+function sendMail() {
+  var name = document.querySelector("#name").value;
+  window.location.href =
+    "mailto:JPetrofsky@dtcc.com?subject=SR-DTC-2021-005&body=Dear Mr. Petrofsky,%0D%0A%0D%0AMy name is " +
+    name +
+    " and I am writing to you regarding the recent filing of SR-DTC-2021-005. As an active investor in our domestic stock markets, it has recently been troubling to learn about certain dangerous practices that members of the DTC have been both enabling and purposefully participating in. In particular, abusive naked short selling of securities traded on our stock exchange.%0D%0A%0D%0AThe DTC appears to be well aware of the extensive systemic threat this practice has posed to the markets, and it has been relieving to see the actions the DTC has taken to curtail this via the recent regulatory filings that have been posted on the website.%0D%0A%0D%0AUnfortunately, one of the most important proposals (SR-DTC-2021-005) that would have served to bring more transparency and responsible behavior to the markets has been removed from the DTC filings page, and the public has not been provided any updates as to when the DTC will post the ruling.%0D%0A%0D%0AAt this time I would like to ask: when can we expect this rule filing to return? And what specifically has caused this filing to be taken down? This rule has the power to have an enormous beneficial impact on the markets, and in the interest of fair and free markets for all investors, I urge you to do your part in helping us all uphold this standard. Thank you for all the work you've done up to this point, and I will be eagerly awaiting your response.%0D%0A%0D%0AKind Regards%0D%0A%0D%0A" +
+    name;
+}

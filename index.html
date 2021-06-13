@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>DTC-2021-005 Petition</title>
+  </head>
+  <body class="text-center">
+    <form class="form-signin">
+      <label for="name" class="sr-only">Name</label>
+      <input
+        type="text"
+        id="name"
+        class="form-control"
+        placeholder="Ape name"
+        name="name"
+        required
+        autofocus
+      />
+    </form>
+    <button
+      type="submit"
+      id="subBtn"
+      class="btn btn-lg btn-primary btn-block"
+      onclick="sendMail()"
+    >
+      Send Email
+    </button>
+    <p class="mt-5 mb-3 text-muted">Created by u/Nemean90</p>
+    <p class="mt-5 mb-3 text-muted">
+      An <a href="https://atlantisdigital.co.uk/">Atlantis Digital</a> project
+    </p>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> -->
+    <script src="scripts.js"></script>
+  </body>
+</html>
